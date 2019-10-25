@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <!-- required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title> Bootstrap 4 Starter with Row and Columns</title>
+
+  <!-- Bootstrap CSS local file -->
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+
+</head>
+<body>
+
+  <!-- Bootstrap WANTS this container class -->
+  <div class="container">
+    <!-- Bootstrap classes for margin & padding are explained here:
+         https://getbootstrap.com/docs/4.3/utilities/spacing/
+        -->
+
+
+      <div class="row">
+      <!-- this row contains two columns -->
+
+
+      <div class="col-md-8">
+        <h1 class="pt-3 pb-2">Test your Gator knowledge</h1>
+        <p>The University of Florida is a research university located in Gainesville, Florida. UF houses the Florida Gators sports teams. Information about UF was taken from <a href="https://en.wikipedia.org/wiki/University_of_Florida">its Wikipedia page.</a></p>
+
+        <form>
+
+          <div class="form-group">
+          <label for="year">In what year was UF established? <input class="form-control" type="text" name="year" id="year" placeholder="Year"></label>
+
+          <div class="form-group">
+          <label for="president">Who is the current president of UF? <input class="form-control" type="text" name="president" id="president" placeholder="President"></label></div>
+
+          <div class="form-group">
+          <label>List the official colors of the University of Florida <textarea name="color" id="color" placeholder="Colors" rows="2" cols="50"></textarea></label></div>
+
+          <div class="form-group">
+          <label class=>Which of these is NOT an area on UF's campus?</label>
+            <div class="form-check"><label class="form-check-label"><input type="radio" name="area" value="turlington"> Turlington</label></div>
+
+            <div class="form-check"><label class="form-check-label"><input type="radio" name="area" value= "reitz"> Reitz Union</label></div>
+
+            <div class="form-check"><label class="form-check-label"><input type="radio" name="area" value="square"> University Square</label></div>
+
+            <div class="form-check"><label class="form-check-label"><input type="radio" name="area" value="plaza"> Plaza of the Americas</label></div>
+          </div>
+
+          <div class="form-group"><label>Which of these are real colleges at UF?  </label>
+
+          <div class="form-check"><label class="form-check-label"><input class="form-check-input" type="checkbox" name="colleges" value="education"> College of Education</label></div>
+
+          <div class="form-check"><label class="form-check-label"><input class="form-check-input" type="checkbox" name="colleges" value="computer"> College of Computer Science</label></div>
+
+          <div class="form-check"><label class="form-check-label"><input class="form-check-input" type="checkbox" name="colleges" value="nursing"> College of Nursing</label></div>
+
+          <div class="form-check"><label class="form-check-label"><input class="form-check-input" type="checkbox" name="colleges" value="broadcasting"> College of Digital Broadcasting </label></div>
+
+          </div>
+
+          <div class="form-group">
+          <label for="mascot">Which of these is the name of the Florida Gators' mascot? </label> <select class="form-control" name="mascot" id="mascot">
+              <option>Ally</option>
+              <option>Alfred</option>
+              <option>Albert</option>
+              <option>Gabe</option>
+              <option>Gary</option>
+              <option>Gordon</option></select></div>
+
+          <div class="form-group">
+              <input type="submit"> <input type="reset"></div>
+
+        </form>
+      </div><!-- end col -->
+
+      </div><!-- end row -->
+
+  </div><!-- end container -->
+
+
+  <!-- optional JavaScript for Bootstrap 4 not included here -->
+
+<!-- DO NOT forget your closing tags! -->
+
+
+</body></html>
